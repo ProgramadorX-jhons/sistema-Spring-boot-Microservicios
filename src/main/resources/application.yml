@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: microservice-final
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/sistemafinal
+    username: postgres
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
